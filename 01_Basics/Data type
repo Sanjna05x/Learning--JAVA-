@@ -1,0 +1,75 @@
+1-----PRINT 
+public class HelloWorld {                                  //class name =name.java
+    public static void main(String[] args) {               //main method (function)
+        System.out.println("HelloJa va!");
+    }
+}
+
+
+2-----DATA TYPES
+
+class DataTypes {
+    public static void main(String[] args) {
+        byte b = 10;
+        short s = 200;
+        int i = 1000;
+        long l = 123456789L;
+        float f = 10.5f;
+        double d = 99.99;
+        char c = 'A';
+        boolean flag = true;
+
+        System.out.println("byte: " + b);
+        System.out.println("short: " + s);
+        System.out.println("int: " + i);
+        System.out.println("long: " + l);
+        System.out.println("float: " + f);
+        System.out.println("double: " + d);
+        System.out.println("char: " + c);
+        System.out.println("boolean: " + flag);
+    }
+}
+
+
+------------------------------------------------------------------------------------------------------------------------------
+public class TypeCasting {
+    public static void main(String[] args) {
+        int a = 10;
+        double b = a;      // Implicit casting
+
+        double x = 12.5;
+        int y = (int) x;   // Explicit casting
+
+        System.out.println("Implicit casting: " + b);
+        System.out.println("Explicit casting: " + y);
+    }
+}
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+
+import java.util.Scanner;                                  //Take Input from User
+
+class UserInputDataTypes {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter int: ");
+        int i = sc.nextInt();
+
+        System.out.print("Enter float: ");
+        float f = sc.nextFloat();
+
+        System.out.print("Enter char: ");
+        char c = sc.next().charAt(0);
+
+        System.out.print("Enter boolean: ");
+        boolean b = sc.nextBoolean();
+
+        System.out.println("\nYou entered:");
+        System.out.println(i + " " + f + " " + c + " " + b);
+    }
+}
+
+
