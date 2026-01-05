@@ -1,1 +1,13 @@
+public class Main
+{
+	public static void fun1(int age) {      // passing parameters 
+	    
+	System.out.println("Your age is"+"="+age);
+	
+	}
+	public static void main(String []arrgs){
+	    fun1(20);       //calling method 
+	}
+}
+
 
