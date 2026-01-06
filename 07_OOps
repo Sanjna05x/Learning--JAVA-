@@ -1,1 +1,16 @@
+class Student {          // class name
+    String name;         // attributes
+    int roll;
+}
 
+public class Main {
+    public static void main(String[] args) {
+
+        Student obj = new Student();   // object creation
+        obj.name = "sanjna";           // access & assign
+        obj.roll = 6;
+
+        System.out.println(obj.name);  // print
+        System.out.println(obj.roll);
+    }
+}
