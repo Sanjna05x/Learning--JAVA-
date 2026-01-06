@@ -6,8 +6,8 @@ class Student {          // class name
 public class Main {
     public static void main(String[] args) {
 
-        Student obj = new Student();   // object creation
-        obj.name = "sanjna";           // access & assign
+        Student obj = new Student();   // object creation            Syntax= className objName = new className;        objName ---camel case 
+        obj.name = "sanjna";           // access & assign                                
         obj.roll = 6;
 
         System.out.println(obj.name);  // print
