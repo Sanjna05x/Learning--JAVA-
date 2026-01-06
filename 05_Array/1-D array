@@ -1,1 +1,21 @@
+class Main {
+    public static void main(String[] args) {
+       /* int nums1[]={1,2,3};
+        int []nums2={1,2,3,4,5};
+        nums2=nums1;
+        for(int x:nums2)  //elements wise 
+        System.out.print(x+":"); 
+        */
+        
+        int num[];
+       num=new int[2];
+        num[0]=10;
+        num[1]=20;
+        num=new int[4];
+        num[2]=30;
+        num[3]=40;
+        for( int x:num)
+        System.out.print(""+x);
+    }
+}
 
