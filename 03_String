@@ -1,5 +1,5 @@
 
----Length of String---------------------------------------------01
+---Length of String---------------------------------------------------01
 
 public class StringLength {
     public static void main(String[] args) {
@@ -11,6 +11,47 @@ public class StringLength {
 
 Output-
 Length of the string is: 10
+
+------Print Count/Upper Case Letters-------------------------------------------02
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ----------------------------------------------------------------02
 
