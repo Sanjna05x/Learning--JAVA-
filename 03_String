@@ -32,5 +32,62 @@ Output-
 Enter a string: Hello
 Length of the string is: 5
 ----------------------------------------------------------------03
+Reverse string,Array :
 
+Index:   0   1   2   3   4
+Array:  1   2   3   4   5
+         ↑               ↑
+       start            end
+
+
+
+public class Main {
+    public static void main(String[] args) {
+        String str = "Possible";
+        String rev = "";
+        int n = str.length();
+
+        for (int i = n - 1; i >= 0; i--) {
+            char ch = str.charAt(i);
+            rev = rev + ch;                       //Reverse String
+        }
+
+        {System.out.println(rev);
+        }
+        
+        int arr[]={1,2,3,4,};
+        n=arr.length;
+        int start=0;
+        int end=n-1;
+        while(start<end)                     // Reverse Array uisng Swaping 
+        
+        {                                   // while loop --- two pointer logic =
+                                              // taking two variable and tranfer data
+          int temp=arr[start];                                                       
+          arr[start]=arr[end];  
+          arr[end]=temp;
+          start++;
+          end--;
+        }
+
+        for(int i=0;i<n;i++)
+        {
+            System.out.println(arr[i]);
+        }
+    }
+}
+
+Output=
+ elbissoP
+4
+3
+2
+1
+
+for loop concept ---
+for (int i = 0; i < n / 2; i++) {
+    int temp = arr[i];
+    arr[i] = arr[n - 1 - i];
+    arr[n - 1 - i] = temp;
+}
 
