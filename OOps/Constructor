@@ -1,1 +1,31 @@
+class Item{
+     int quantity;
+     int price;
+
+	Item(int x, int y){
+		    quantity=x;             //paramerterized constructor
+		    price=y;} 
+		    
+		    Item(){               //Default constructor
+	   quantity=5;
+        price=10;                 
+	   } 
+}
+
+public class Main
+{
+	public static void main(String[] args) {
+	    
+		Item obj1= new Item(10,10); 
+		
+    Item obj2= new Item();
+    
+    
+    System.out.println(obj2.quantity);
+    System.out.println(obj2.price);
+    System.out.println(obj1.quantity);
+    System.out.println(obj1.price);
+		
+	}
+}
 
