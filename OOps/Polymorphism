@@ -1,1 +1,49 @@
+(Math overloading)--------
+🔹 Same method name
+🔹 Different parameters
+🔹 Happens at compile time
+
+class MathOp {
+    void add(int a, int b) {
+        System.out.println(a + b);
+    }
+
+    void add(int a, int b, int c) {
+        System.out.println(a + b + c);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        MathOp m = new MathOp();
+        m.add(10, 20);
+        m.add(10, 20, 30);
+    }
+}
+
+(Method overridding)--------------
+
+class Parent {
+    void show() {
+        System.out.println("This is Parent class");
+    }
+}
+
+class Child extends Parent {
+    void show() {
+        System.out.println("This is Child class");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Parent obj = new Child(); // upcasting
+        obj.show();
+    }
+}
+🔹 Parent reference, child object
+🔹 Happens at runtime
+-----------------------------------------
+operator and constructor overloading 
+
 
