@@ -81,6 +81,32 @@ Enter a string: Hello
 Length of the string is: 5
 
 ----------------------------------------------------------------05
+public class Main
+{
+	public static void main(String[] args) {
+		String str1="naman";
+		String rev="";
+	    int n=str1.length();
+	    for(int i=n-1;i>=0;i--)
+	    {
+	        char ch=str1.charAt(i);
+	        rev=rev+ch;
+	    }
+	    System.out.println(rev);
+	    
+
+	if(str1.equals(rev))
+	{
+	    System.out.println("palindrome");
+	}
+	else
+	{
+	    System.out.println("Not palindrome");
+	}
+ }
+}
+
+---------------------------------------------------------------------06
 Reverse string,Array :
 
 Index:   0   1   2   3   4
