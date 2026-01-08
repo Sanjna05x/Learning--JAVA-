@@ -100,3 +100,26 @@ public class Main
 }
 
  ---------------More variables tha use toString()  method  to print in single line 
+
+---------------------------------------------------------------------------------------Constructor chaining 
+
+class parent{
+   parent(){  }        //Default constructor 
+    parent(int a){
+        System.out.println("Parent Constructor");
+    }
+}
+  class Child  extends parent{
+      Child (int b)
+      {
+          System.out.println("Child constructor");
+      }
+  }
+    
+   public class Main
+{
+	public static void main(String[] args) {
+		Child obj= new Child(10);
+	}
+} 
+    
