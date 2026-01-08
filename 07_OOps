@@ -98,3 +98,5 @@ public class Main
 	     System.out.println(d.getName());
  }
 }
+
+ ---------------More variables tha use toString()  method  to print in single line 
